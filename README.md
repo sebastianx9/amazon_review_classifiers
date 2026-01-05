@@ -38,10 +38,13 @@ The core methodology involves a Bag-of-Words (BoW) feature representation, selec
 Ensure you have Python 3.8 or later installed.
 
 ### 2. Clone the Repository
+```bash
 git clone https://github.com/sebastian999/amazon_review_classifiers.git
-
+```
 ### 3. Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 4.Run the project
 
