@@ -52,19 +52,39 @@ Execute the Classifier script to train both models and see results.
 
 This will:
 
-Load and preprocess the data.
+- Load and preprocess the data.
 
-Train the sentiment classifier and evaluate it on the test set. 
+- Train the sentiment classifier and evaluate it on the test set. 
 
-Train the helpfulness classifier and evaluate it on the test set. 
+- Train the helpfulness classifier and evaluate it on the test set. 
 
-Print evaluation metrics and generate learning curves. 
+- Print evaluation metrics and generate learning curves. 
 
-## Authors and Acknowledgements
-Author: Haotian Xu
-Instructor: Dr. Colin Bannard
-Course: [LELA60331]
-Institution: University of Manchester
+## Usage
+For reproducibility purposes, the core training logic for the classifiers has been encapsulated in the sentiment_classifier.py and helpfulness_classifier.py file.
+
+In your Python script or Jupyter Notebook, use the following statement to import the training functions:
+
+```bash
+from sentiment_classifier import train_sentiment_classifier
+```
+and
+```bash
+from helpfulness_classifier import train_helpfulness_classifier
+```
+
+- These functions uses parameters identical to the original experimental code:
+- Returns:
+    - weights (np.ndarray): The trained weight vector.
+    - bias (np.ndarray): The trained bias term.
+    - logistic_loss (list): A list recording the average training loss for each epoch.
+
+
+## Authors and Acknowledgements 
+- Author: Haotian Xu
+- Instructor: Dr. Colin Bannard
+- Course: [LELA60331]
+- Institution: University of Manchester
 
 ## License
 All Rights Reserved
