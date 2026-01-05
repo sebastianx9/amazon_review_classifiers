@@ -48,7 +48,7 @@ def train_sentiment_classifier(M_train, sents_train, seed_value=42, num_features
         epoch_loss = total_batch_loss / n_batches
         logistic_loss.append(epoch_loss)
 
-    # 绘图（您原始代码的一部分）
+  
     plt.plot(range(1, n_iters), logistic_loss[1:])
     plt.xlabel("number of epochs")
     plt.ylabel("loss")
