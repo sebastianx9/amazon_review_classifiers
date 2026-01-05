@@ -5,6 +5,8 @@ This repository contains the code of a final coursework project in ipython notbo
 
 ## Description
 
+All codes are included in the Classifier.ipynb file.
+
 ### Dataset
 
 - Source: Amazon product reviews across 24 categories.
