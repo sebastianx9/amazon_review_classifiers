@@ -41,7 +41,7 @@ Ensure you have Python 3.8 or later installed.
 git clone https://github.com/sebastian999/amazon_review_classifiers.git
 
 ### 3. Dependencies
-install numpy, matplotlib, re, math, os
+pip install -r requirements.txt
 
 ### 4.Run the project
 
