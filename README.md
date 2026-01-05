@@ -39,7 +39,7 @@ Ensure you have Python 3.8 or later installed.
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/sebastian999/amazon_review_classifiers.git
+git clone https://github.com/sebastianx9/amazon_review_classifiers.git
 ```
 ### 3. Dependencies
 ```bash
