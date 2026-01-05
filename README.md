@@ -63,7 +63,7 @@ This will:
 ## Usage
 For reproducibility purposes, the core training logic for the classifiers has been encapsulated in the sentiment_classifier.py and helpfulness_classifier.py file.
 
-In your Python script or Jupyter Notebook, use the following statement to import the training functions:
+In your Python script or Jupyter Notebook, after preparing your training test matrix and true vlues, use the following statement to import the training functions:
 
 ```bash
 from sentiment_classifier import train_sentiment_classifier
@@ -74,6 +74,8 @@ from helpfulness_classifier import train_helpfulness_classifier
 ```
 
 - These functions uses parameters identical to the original experimental code:
+  - M_train, sents_train,seed_value=42, num_features=5000, n_iters=2500, lr=0.1, lambda_l2=0.001, batch_size=128
+  - M_train, y_train, num_features=5000, num_classes=3, seed_value=42, n_iters=2500, lr=0.05, lambda_l2=0.001, batch_size=128
 - Returns:
     - weights (np.ndarray): The trained weight vector.
     - bias (np.ndarray): The trained bias term.
