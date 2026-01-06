@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ### 4.Run the project
 
-Execute the Classifier script to train both models and see results.
+Execute the Classifier.ipynb script to train both models and see results.
 
 This will:
 
