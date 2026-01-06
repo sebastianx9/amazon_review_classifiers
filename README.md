@@ -48,6 +48,8 @@ git clone https://github.com/sebastianx9/amazon_review_classifiers.git
 pip install -r requirements.txt
 ```
 
+## Usage
+
 ### 4.Run the project
 
 Execute the Classifier.ipynb script to train both models and see results.
@@ -60,9 +62,8 @@ This will:
 
 - Train the helpfulness classifier and evaluate it on the test set. 
 
-- Print evaluation metrics and generate learning curves. 
-
-## Usage
+- Print evaluation metrics and generate learning curves.
+  
 For reproducibility purposes, the core training logic for the classifiers has been encapsulated in the sentiment_classifier.py and helpfulness_classifier.py file.
 
 In your Python script or Jupyter Notebook, after preparing your training test matrix and true vlues, use the following statement to import the training functions:
