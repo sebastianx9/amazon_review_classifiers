@@ -85,7 +85,7 @@ from helpfulness_classifier import train_helpfulness_classifier
 
 
 ## Authors and Acknowledgements 
-- Author: Haotian Xu
+- Author Student ID: 11479116
 - Instructor: Dr. Colin Bannard
 - Course: [LELA60331]
 - Institution: University of Manchester
